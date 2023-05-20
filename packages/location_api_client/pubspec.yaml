@@ -1,0 +1,22 @@
+name: location_api_client
+description: Flutter package that handles location api requests
+version: 0.1.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+  flutter: 3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  http: ^0.13.6
+  json_annotation: ^4.8.1
+
+dev_dependencies:
+  build_runner: ^2.4.4
+  flutter_test:
+    sdk: flutter
+  json_serializable: ^6.7.0
+  mocktail: ^0.3.0
+  very_good_analysis: ^4.0.0

@@ -1,0 +1,35 @@
+name: flutter_maps
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.19.0 <3.0.0"
+
+dependencies:
+  bloc: ^8.1.1
+  equatable: ^2.0.5
+  flutter:
+    sdk: flutter
+  flutter_bloc: ^8.1.2
+  flutter_localizations:
+    sdk: flutter
+  flutter_map: ^4.0.0
+  http: ^0.13.6
+  intl: ^0.18.0
+  latlong2: ^0.8.1
+  location_api_client:
+    path: packages/location_api_client
+  locations_repository:
+    path: packages/locations_repository
+
+dev_dependencies:
+  bloc_test: ^9.1.1
+  flutter_test:
+    sdk: flutter
+  mocktail: ^0.3.0
+  very_good_analysis: ^4.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
